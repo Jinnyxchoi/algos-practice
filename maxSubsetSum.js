@@ -1,6 +1,6 @@
 /* write a function that takes in an array of positive integers and returns the max sum of non-adjacent elements in the array.
 if the input array is empty, the function should return 0 */
-
+//O(n) time | O(1) space
 function maxSubsetSumNoAdjacent(array) {
   if (!array.length) return 0;
   else if (array.length === 1) return array[0];
